@@ -119,10 +119,11 @@
                     <p>An analysis of Airbnb listings for Vieques yielded host information from 219 listings. Since some hosts possess multiple listings, duplicates were pruned, resulting in 153 distinct hosts. Out of these, only 119 had updated their profiles with information about their place of residence. Notably, 52 out of the 119 indicated that they lived outside of Vieques or Puerto Rico.</p> 
                     <div class="flourish-embed flourish-pictogram" data-src="visualisation/14697655"><script src="https://public.flourish.studio/resources/embed.js"></script></div>                    <p>According to the sentiment shared by Vieques residents, any business that fails to prioritize the welfare of the local communities where it operates falls short of acceptability. Their ongoing struggle underscores the urgency of securing equitable access to decent housing within their cherished island enclave.</p> 
                </div> 
-                <p><i><strong>Methodology:</strong> I downloaded data from the Puerto Rico Department of Natural and Environmental Resources with information from the Beach Monitoring and Public Notification Program. None of it was in CSV format, so I transformed it and cleaned in Google Sheets an the in Pandas. To see the amount of enterococcus per 100 mL of water in every beach for the last two monitorings, I convert the date to a dateframe and looked for the two most recent dates that each beach was challenged. Then, I made I comparison between the results for those dates to see the variation in contamination.</i></p> 
-                <p><i>After having the analysis, I used Datawrapper to show that difference in a graph. Also, I created a map in Datawrapper to show the status of every beach that is part of the program, those that are suitable for swimming and the 10 with a swimming advisory in effect.</i></p>    
-                <p><i><a href=https://github.com/cristinadelmar/parks-recovery-puerto-rico>Here is my repository.</a></i></p> 
-            </div>
+                <strong>Methodology</strong>
+
+<em>I open de website using browser automation with Selenium. Then scraped it to parse the urls to every listing, looped through each one to get the host urls and then, get the information of every host. I saved the information in a dataframe to analyze in Pandas. </em>
+
+<em>For the visualizations, I used Flourish. Here is my GitHub repository.</em>
         </div> 
     </div> 
 </div>   
