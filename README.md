@@ -14,14 +14,15 @@ Leveraging the power of Selenium, I initiated a web scraping operation targeting
 
 To proceed, I compiled a list of URLs corresponding to the 270 Vieques Airbnb listings. This compilation then facilitated the extraction of 219 host profile URLs. Parsing these links, I identified that some hosts were responsible for multiple properties, which amounted to a total of 153 distinct hosts. My endeavors yielded their profiles, which held valuable descriptions.
 
+|  Data                 | File                                                                                                          |
+| --------------------- | ------------------------------------------------------------------------------------------------------------- |
+|Total of listings by place of living of hosts |[sum_counts_by_livesin.csv](https://github.com/cristinadelmar/Vieques_Airbnbs_Gentrification/blob/main/sum_counts_by_livesin.csv)          |
+|Total of hosts living in each place outside of Vieques and Puerto Rico| [value_counts_by_livesin.csv](https://github.com/cristinadelmar/Vieques_Airbnbs_Gentrification/blob/main/value_counts_by_livesin.csv)    |
+
 
 ## Data Analysis Process
 
 I analyzed the results using Pandas. Out of the collected hosts, 20 claimed to reside in Vieques, 47 identified with other parts of Puerto Rico, and a substantial 52 were associated with residences elsewhere in the world, completely unaffiliated with Vieques or Puerto Rico. This notable statistic underscores a compelling truth: nearly half of the proprietors behind Vieques' short-term rental properties are not integral members of the local community, leading to a minimal impact on the local economy.
-
-Total of listings by place of living of hosts
-
-Total of hosts living in each place outside of Vieques and Puerto Rico
 
 The story webpage is here: https://cristinadelmar.github.io/parks-recovery-puerto-rico/
 
