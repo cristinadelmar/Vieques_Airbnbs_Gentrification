@@ -24,7 +24,7 @@ To proceed, I compiled a list of URLs corresponding to the 270 Vieques Airbnb li
 
 I analyzed the results using Pandas. Out of the collected hosts, 20 claimed to reside in Vieques, 47 identified with other parts of Puerto Rico, and a substantial 52 were associated with residences elsewhere in the world, completely unaffiliated with Vieques or Puerto Rico. This notable statistic underscores a compelling truth: nearly half of the proprietors behind Vieques' short-term rental properties are not integral members of the local community, leading to a minimal impact on the local economy.
 
-The story webpage is here: https://cristinadelmar.github.io/parks-recovery-puerto-rico/
+The story webpage is here: [https://cristinadelmar.github.io/parks-recovery-puerto-rico/](https://cristinadelmar.github.io/Vieques_Airbnbs_Gentrification/)
 
 ## Skills learned
 
